@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Treats Cake Shop</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8f0;
+    }
+
+    .navbar {
+      background-color: #ff758c;
+    }
+
+    .navbar a {
+      color: white !important;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #ff7eb3, #ff758c);
+      color: white;
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+
+    .btn-custom {
+      background-color: #fff;
+      color: #ff758c;
+      border-radius: 25px;
+      padding: 0.6rem 1.5rem;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn-custom:hover {
+      background-color: #d6336c;
+      color: white;
+    }
+
+    .cake-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 1rem;
+      transition: transform 0.3s ease;
+    }
+
+    .cake-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .cake-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background-color: #ff758c;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand text-white" href="index.html">Sweet Treats</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="cakes.html">Our Cakes</a></li>
+          <li class="nav-item"><a class="nav-link" href="order.html">Order Now</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Sweet Treats 🍰</h1>
+    <p>Delicious cakes baked with love, perfect for every celebration.</p>
+    <a href="cakes.html" class="btn btn-custom mt-3">Browse Cakes</a>
+  </section>
+
+  <!-- Featured Cakes -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4 text-danger">Featured Cakes</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="cake-card">
+          <img src="https://i.pinimg.com/originals/43/91/24/4391249b6f5f25b13ea5f320e98deec5.jpg" alt="Chocolate Cake">
+          <h3>Chocolate Cake</h3>
+          <p>Rich and moist chocolate cake topped with creamy frosting.</p>
+          <a href="order.html" class="btn btn-custom">Order Now</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="cake-card">
+          <img src="https://i.pinimg.com/originals/0e/0c/f9/0e0cf9507cbd59e334d77494a6419add.jpg" alt="Red Velvet Cake">
+          <h3>Red Velvet Cake</h3>
+          <p>Classic red velvet with cream cheese frosting.</p>
+          <a href="order.html" class="btn btn-custom">Order Now</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="cake-card">
+          <img src="https://reddessertdive.com/wp-content/uploads/2023/10/Vanilla-2048x2048.jpg" alt="Vanilla Cake">
+          <h3>Vanilla Cake</h3>
+          <p>Light and fluffy vanilla cake perfect for any celebration.</p>
+          <a href="order.html" class="btn btn-custom">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Sweet Treats Cake Shop. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
