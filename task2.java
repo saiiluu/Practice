@@ -7,7 +7,7 @@ public class studentInfo
   System.out.println("enter the age");
   int age=sc.nextInt();
   System.out.println("enter marks");
-  float marks=sc.nextInt();
+  float marks=sc.nextFloat();
   public static void main(String args[])
     {
     System.out.println(name);
