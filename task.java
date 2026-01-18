@@ -1,5 +1,5 @@
 import java.util.*;
-public class votting()
+public class votting
 {
 int age=20;
 public static void main(String args[])
